@@ -1,0 +1,16 @@
+{
+    "extends": "airbnb-base",
+    "rules": {
+        "indent": [0],
+        "no-unused-vars": ["error", { "vars": "all", "args": "none", "ignoreRestSiblings": false }],
+        "object-curly-newline": "off",
+        "class-methods-use-this": "off",
+        "no-param-reassign": "off",
+        "consistent-return": "warn",
+        "no-underscore-dangle": "warn",
+        "import/prefer-default-export": "warn",
+        "max-len": ["warn", { "code": 120 }],
+        "no-multi-assign": "warn",
+        "one-var": 1
+    }
+}

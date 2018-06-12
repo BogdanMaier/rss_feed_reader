@@ -1,0 +1,9 @@
+{
+  "nodemonConfig": {
+    "execMap": {
+      "js": "babel-node"
+    },
+    "ext": "js",
+    "delay": "2500"
+  }
+}

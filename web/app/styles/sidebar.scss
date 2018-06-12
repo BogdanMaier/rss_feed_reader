@@ -1,0 +1,30 @@
+@import "partials/_root.scss";
+
+
+.sidebar {
+  min-width: 250px;
+  max-width: 350px;
+  min-height: 100vh;
+  padding: $space-big 0 $space-big $space-medium;
+
+  .header {
+    padding-top: calc(1.4 * #{$space-big});
+  }
+
+  .title {
+    padding-left: 7px;
+    padding-top: calc( 2 * #{$space-big});
+    display: block;
+    font-size: 18px;
+  }
+
+  .summary-padding {
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+
+  .item {
+    display: block;
+    font-size: 16px;
+  }
+}

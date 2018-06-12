@@ -1,0 +1,44 @@
+@import 'partials/root';
+
+.list {
+	position: relative;
+
+	& > div {
+		cursor: pointer;
+	}
+
+	.vertical {
+		.item {
+			padding-left: $space-small;
+			padding-right: $space-small;
+			align-items: center;
+			border-top: 1px solid transparent;
+			border-bottom: 1px solid transparent;
+			display: block;
+		}
+	}
+
+	.selected {
+		border-top: 1px solid #84cdfc !important;
+		border-bottom: 1px solid #84cdfc !important;
+	}
+
+	.controls-spacer {
+		width: 40px;
+	}
+
+	.controls {
+		& > button {
+			flex: 1;
+		}
+
+		.op {
+			color: $btn-color-pressed;
+			opacity: .2;
+
+			&:hover {
+				opacity: .7;
+			}
+		}
+	}
+}
